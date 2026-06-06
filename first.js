@@ -1,8 +1,8 @@
 
 //the meethod to print the messages in js
-console.log("\nhello nepal");
-console.log("\nhello milan  lama");
-console.log("\nthis is my learing area");
+console.log("\nHello nepal");
+console.log("\nHello Milan  Lama");
+console.log("\nThis is my learing area");
 
 //application of operators in js
 //simple example of calculator
