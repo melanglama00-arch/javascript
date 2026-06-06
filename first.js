@@ -17,7 +17,7 @@ console.log("division: ", a /b);
 console.log(a++);//increment
 console.log(b--);//decrement
 
-//small practise of js
+//small practise of js using the conditional statement.
 alert("welcome to the learning area");
 let num = prompt("enter a number");
 if( num % 5=== 0){
@@ -25,3 +25,29 @@ if( num % 5=== 0){
 } else{
     console.log(num,"not the multiple of 5");
 }
+
+//using the loop concept 
+//to print the number from 0 to 100
+console.log("to print the number from 1 to 10");
+
+for(let x=1; x<=10; x++){
+    console.log("num: ",x);
+}
+
+console.log("to print the even numbers");
+for(let y=2; y<=10; y++){
+    if(y%2===0){
+         console.log("y: ",y);
+    }
+   
+}
+
+console.log("to print the odd numbers ");
+for(let z=0; z<=10; z++){
+    if(z%2!==0){
+         console.log("z: ",z);
+    }
+   
+}
+let sentence='thankyou my love for everything';
+console.log(sentence);
