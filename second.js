@@ -17,3 +17,22 @@ for (let val of arr) {
  let ave=sum/arr.length;
     console.log(`the average of the given array numbers = ${ave}`);
     console.log("this i show the learning happens");
+
+    //the function in the js
+
+    function myfunction(){
+       
+        console.log("this is function calling");
+        console.log("be confident hai..")
+    }
+
+    myfunction();
+
+    //the second type of function
+
+    function add(x,y){
+        s=3+5
+        console.log(s);
+    }
+
+    add();
