@@ -36,3 +36,32 @@ for (let val of arr) {
     }
 
     add();
+
+    function div(a,b){
+        return a/b;
+    }
+
+    function mult(c,d){
+        return c*d;
+    }
+
+    //to count the vovels in the lettters
+
+    function countVowel(str){
+        let count=0;
+        for(const char of str){
+            if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u" ){
+                count++;
+            }
+        }
+        console.log(count);
+    }
+
+    //using the for eachloop
+    //also called the higher order function
+
+   
+    let arr=[2,4,5,6,7,8];
+    arr.forEach(function printVal(num){
+        console.log(num);
+    });
