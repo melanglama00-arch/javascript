@@ -30,6 +30,8 @@ for(let i=1; i<=5; i++){
     console.log(p2)
 }
 
+console.log(" ");
+
 let x= parseInt(prompt("enter multiplicative number"));
 console.log("the multiplication table of 7")
 for(let k=1; k<=10; k++){
