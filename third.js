@@ -80,6 +80,7 @@ function square(){
 square();
 
 console.log("");
+
 //question 4:
 function greeting(){
     console.log("Student:Good Morning sir");
@@ -87,11 +88,12 @@ function greeting(){
 greeting();
 
 console.log(" ");
+
 //question 5:
 function arrow(){
     let a=parseInt(prompt("Enter 1st number for multiplication"));
     let b=parseInt(prompt("Enter 2nd number for multiplication"));
-    console.log(c=a*b);
+    console.log(c = a*b);
 }
 arrow();
 
