@@ -1,4 +1,5 @@
 //function in js
+//this is how i am learing the js
 function sayhello(){ //functiion decleration
     console.log("hello Nepal");
 }
@@ -90,12 +91,9 @@ greeting();
 console.log(" ");
 
 //question 5:
-function arrow(){
-    let a=parseInt(prompt("Enter 1st number for multiplication"));
-    let b=parseInt(prompt("Enter 2nd number for multiplication"));
-    console.log(c = a*b);
-}
-arrow();
+//the example of arrow function
+const mul = (a, b) => a * b;
+console.log(mul(3,3));
 
 console.log(" ");
 
@@ -124,14 +122,14 @@ expression();
 console.log(" ");
 //question 8:
 console.log("addtion of many numbers by function(parameterized)");
-function many(u, v, w, g){
+function many(u, v, w, g){//function deceleration
 console.log(o=u+v+w+g);
 }
-many(10, 20, 30, 40);
+many(10, 20, 30, 40);//function calling
 
 console.log(" ");
 //question 9:
-function result(){
+function result(){//function deceleration
     let marks=parseInt(prompt("enter your marks"));
     if(marks>=40){
         console.log("student is passed");
@@ -139,7 +137,7 @@ function result(){
         console.log("student is fail ");
     }
 }
-result();
+result();//function calling
 
 
 
